@@ -1,0 +1,18 @@
+{
+  "name": "circom_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "circom": "^0.5.46",
+    "ethers": "^5.7.2",
+    "snarkjs": "^0.7.4",
+    "web3": "^4.11.1"
+  }
+}

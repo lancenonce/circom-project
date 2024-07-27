@@ -1,0 +1,8 @@
+node compile.js
+node setup_and_prove.js
+npx snarkjs zkey export solidityverifier polynomial_final.zkey verifier.sol
+
+source .env
+forge create --rpc-url $SEPOLIA_RPC_URL --private-key $PRIVATE_KEY src/verifier.sol:Groth16Verifier
+
+node verify_proof.js
