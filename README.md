@@ -1,10 +1,11 @@
 # Basic Circom Project
 This is a basic circom project that was presented at the Aya Builder showcase in July 2024. It explains how to evaluate a polynomial:
+
 $$
 x^3 + 6x^2 + 8x + 9
 $$
 
-evaluates to $$24$$ at $$x=1$$
+evaluates to `24` at `x=1`
 
 ### Usage
 Open the repo and run:
