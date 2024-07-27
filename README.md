@@ -10,6 +10,7 @@ evaluates to `24` at `x=1`
 ### Usage
 Open the repo and run:
 ```
+npm install
 node compile.js
 ```
 
